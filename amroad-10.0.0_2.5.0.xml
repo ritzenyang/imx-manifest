@@ -30,6 +30,9 @@
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="222442d26a8ce40a3c06f31aedf8c7adcc3d5f73" />
 
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-10.0.0_2.5.0" />
+  <!-- For Amroad public git. -->
+  <project path="packages/apps/linphone" name="apps-linphone" remote="android-imx-amroad" revision="main" />
+  <project path="device/amroad" name="device-layer" remote="android-imx-amroad" revision="amroad-10.0.0_2.5.0" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="imx-linux-sdk" revision="refs/tags/android-10.0.0_2.5.0" />
@@ -42,7 +45,6 @@
   <project path="vendor/nxp-opensource/verisilicon_sw_isp_vvcam" name="isp-vvcam" remote="imx-linux-sdk" revision="refs/tags/android-10.0.0_2.5.0" />
   <project path="vendor/nxp/vpu_wrapper" name="imx-vpuwrap" remote="imx-proprietary" revision="refs/tags/android-10.0.0_2.5.0" />
 
-  <project path="device/amroad" name="device-layer" remote="android-imx-amroad" revision="amroad-10.0.0_2.5.0" />
   <project path="device/fsl" name="device/fsl" remote="android-imx-orig" revision="refs/tags/android-10.0.0_2.5.0" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
